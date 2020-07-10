@@ -1,15 +1,18 @@
 # pman0214/gatsbyjs-alpine
 
-> Gatsby Development on Alpine
+> GatsbyJS Development on Alpine
 
 [![Docker Build](https://img.shields.io/docker/cloud/automated/pman0214/gatsbyjs-alpine.svg)](https://hub.docker.com/r/pman0214/gatsbyjs-alpine/)
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+
+Development environment for [Gatsby](https://www.gatsbyjs.org), [React](https://reactjs.org)-based static site generator.
 
 ## Table of Contents
 
 - [Install](#install)
 - [Usage](#usage)
 - [Content](#content)
+- [Contribute](#contribute)
 - [License](#license)
 
 ## Install
@@ -33,10 +36,16 @@ This docker image is based on [Node.js official docker image](https://hub.docker
 The image contains:
 
 * node.js
-* git (to use starter)
 * gatsby-cli
+* git (to use starter)
 * python3 (for gatsby-remark-images->gatsby-plugin-sharp->sharp->node-gyp)
-* gcc, g++, make
+* gcc, g++, make (for some node.js modules)
+
+## Contribute
+
+* Bugfix Pull requests are welcome.
+* If you have a request to include/exclude packages on this docker image, please make an issue on GitHub and discuss.
+Pull requests after the discussion are welcome.
 
 ## License
 
