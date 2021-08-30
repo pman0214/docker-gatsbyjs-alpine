@@ -1,4 +1,4 @@
-# Copyright (c) 2020, Shigemi ISHIDA
+# Copyright (c) 2021, Shigemi ISHIDA
 # All rights reserved.
 # 
 # Redistribution and use in source and binary forms, with or without
@@ -25,7 +25,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 
-FROM node:12-alpine3.12
+FROM node:16-alpine3.14
 
 RUN set -x && \
 	echo '### install build tools and python' && \
