@@ -2,7 +2,6 @@
 
 > GatsbyJS Development on Alpine
 
-[![Docker Build](https://img.shields.io/docker/cloud/automated/pman0214/gatsbyjs-alpine.svg)](https://hub.docker.com/r/pman0214/gatsbyjs-alpine/)
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 Development environment for [Gatsby](https://www.gatsbyjs.org), [React](https://reactjs.org)-based static site generator.
@@ -52,4 +51,4 @@ Pull requests after the discussion are welcome.
 This Docker image is released under the BSD 3-clause license.
 See ``LICENSE.txt``.
 
-* Copyright (c) 2020 Shigemi ISHIDA
+* Copyright (c) 2021 Shigemi ISHIDA
